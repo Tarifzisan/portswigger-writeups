@@ -390,7 +390,7 @@ The lab is solved successfully.
 > 📷 Screenshot
 
 ```
-images/img7.png
+images/Screenshot(467).png
 ```
 
 ---
