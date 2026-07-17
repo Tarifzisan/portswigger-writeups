@@ -249,21 +249,26 @@ sort_payload.py
 ```
 
 ```python
-passwords = []
+print("############# The following are the usernames: #############")
 
-with open("passwords.txt") as f:
-    passwords = [line.strip() for line in f]
+for i in range(150):
+    if i % 3 == 0:
+        print("wiener")
+    else:
+        print("carlos")
 
+print("############# The following are the passwords: #############")
+
+with open("passwords.txt", "r") as f:
+    lines = f.readlines()
 with open("payload.txt", "w") as out:
-    count = 0
 
-    for password in passwords:
-        out.write(f"carlos:{password}\n")
-        count += 1
-
-        if count == 2:
-            out.write("wiener:peter\n")
-            count = 0
+i = 0
+for pwd in lines:
+    if i % 3 == 0:
+        print("peter")
+    print(pwd.strip())
+    i += 1
 ```
 
 Run
