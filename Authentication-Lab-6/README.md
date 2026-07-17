@@ -2,7 +2,7 @@
 
 ## Broken Brute-Force Protection, IP Block
 
-![PortSwigger](images/banner.png)
+
 
 ---
 
@@ -50,11 +50,6 @@ Proxy → Open Browser
 
 Paste the lab URL into Burp's Chromium browser.
 
-> 📷 Screenshot
-
-```
-images/img1.png
-```
 
 ---
 
@@ -136,7 +131,7 @@ This confirms that the application blocks login attempts after several failed re
 > 📷 Screenshot
 
 ```
-images/img2.png
+images/Screenshot(450).png
 ```
 
 ---
@@ -364,7 +359,7 @@ That password is Carlos's correct password.
 > 📷 Screenshot
 
 ```
-images/img6.png
+images/Screenshot(466).png
 ```
 
 ---
@@ -445,36 +440,7 @@ This is a **logic flaw**, not a technical vulnerability.
 
 ---
 
-# 📂 Repository Structure
 
-```
-portswigger-authentication-lab6/
-
-│
-├── README.md
-│
-├── images/
-│   ├── banner.png
-│   ├── img1.png
-│   ├── img2.png
-│   ├── img3.png
-│   ├── img4.png
-│   ├── img5.png
-│   ├── img6.png
-│   └── img7.png
-│
-├── payloads/
-│   ├── usernames.txt
-│   ├── passwords.txt
-│   ├── payload.txt
-│   └── sort_payload.py
-│
-├── LICENSE
-│
-└── .gitignore
-```
-
----
 
 # 🚀 Skills Demonstrated
 
