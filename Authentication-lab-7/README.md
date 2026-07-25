@@ -96,8 +96,11 @@ Most usernames will return:
 Invalid username or password
 ```
 
-For the valid username, after several attempts, the response changes to:
+Most usernames produce the normal authentication error.
 
+However, one username returns a noticeably larger response.
+
+Opening that response reveals a different message:
 ```
 Too many incorrect login attempts
 ```
@@ -145,7 +148,7 @@ Possible indicators include:
 
 - HTTP 302 Redirect
 - Different response length
-- Successful login
+- No warning message
 - Account page loads
 
 Example:
