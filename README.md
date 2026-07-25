@@ -1,4 +1,4 @@
-# Authentication Basics
+# 📌 Authentication Basics
 
 Authentication is something we use every single day, often without even thinking about it. Every time you log into your email, unlock your smartphone, access your university portal, or sign in to GitHub, an authentication process is working behind the scenes to verify your identity.
 
